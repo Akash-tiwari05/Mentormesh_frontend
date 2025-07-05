@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "role": "student",
+      "name": "Alex Johnson",
+      "email": "alex.johnson@email.com",
+      "phone": "+1 (555) 123-4567",
+      "location": "San Francisco, CA",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "bio": "Passionate full-stack developer with a love for React and Node.js. Always eager to learn new technologies and contribute to meaningful projects.",
+      "githubUsername": "alexjohnson",
+      "linkedinUrl": "https://linkedin.com/in/alexjohnson",
+      "skills": ["React", "JavaScript", "Node.js", "Python", "MongoDB", "Git"],
+      "education": [
+        { "degree": "Bachelor of Computer Science", "school": "UC Berkeley", "year": "2022-2026", "current": true },
+        { "degree": "High School Diploma", "school": "Lincoln High", "year": "2018-2022", "current": false }
+      ],
+      "projects": [
+        { "title": "E-commerce Platform", "description": "Built with React and Node.js", "date": "2024-01", "status": "completed", "rating": 4.8 },
+        { "title": "Task Management App", "description": "Full-stack application", "date": "2023-12", "status": "completed", "rating": 4.5 },
+        { "title": "Weather Dashboard", "description": "React with API integration", "date": "2023-11", "status": "completed", "rating": 4.2 }
+      ],
+      "reviews": [
+        { "id": 1, "reviewer": "Sarah Chen", "rating": 5, "comment": "Excellent work on the React project. Very dedicated student!", "date": "2024-01-15" },
+        { "id": 2, "reviewer": "Mike Davis", "rating": 4, "comment": "Great collaboration skills and quick learner.", "date": "2023-12-20" }
+      ],
+      "karma": 4.6,
+      "githubStats": {
+        "repos": 24,
+        "followers": 89,
+        "following": 156,
+        "contributions": 342
+      },
+      "learningPlan": ["Advanced React Patterns", "TypeScript", "Docker", "AWS"],
+      "certifications": [
+        { "name": "React Developer Certification", "issuer": "Meta", "date": "2023-12" },
+        { "name": "JavaScript Algorithms", "issuer": "freeCodeCamp", "date": "2023-10" }
+      ],
+      "isPublic": true
+    },
+    {
+      "id": 2,
+      "role": "mentor",
+      "name": "Dr. Sarah Wilson",
+      "email": "sarah.wilson@email.com",
+      "phone": "+1 (555) 987-6543",
+      "location": "New York, NY",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b332f1ca?w=150&h=150&fit=crop&crop=face",
+      "bio": "Senior Software Engineer with 10+ years of experience. Passionate about mentoring the next generation of developers and sharing knowledge in React, Python, and system design.",
+      "githubUsername": "sarahwilson",
+      "linkedinUrl": "https://linkedin.com/in/sarahwilson",
+      "skills": ["React", "Python", "System Design", "MongoDB", "AWS", "Docker", "TypeScript", "GraphQL"],
+      "education": [
+        { "degree": "Ph.D. Computer Science", "school": "MIT", "year": "2010-2014", "current": false },
+        { "degree": "M.S. Computer Science", "school": "Stanford", "year": "2008-2010", "current": false }
+      ],
+      "projects": [
+        { "title": "Microservices Architecture", "description": "Led team of 8 developers", "date": "2024-02", "status": "ongoing", "rating": 4.9 },
+        { "title": "AI-Powered Analytics", "description": "Python and TensorFlow", "date": "2023-11", "status": "completed", "rating": 4.7 }
+      ],
+      "reviews": [
+        { "id": 1, "reviewer": "Alex Johnson", "rating": 5, "comment": "Amazing mentor! Helped me understand complex React patterns.", "date": "2024-01-20" },
+        { "id": 2, "reviewer": "Emma Davis", "rating": 5, "comment": "Patient and knowledgeable. Great at explaining difficult concepts.", "date": "2024-01-15" },
+        { "id": 3, "reviewer": "John Smith", "rating": 4, "comment": "Very helpful with system design concepts.", "date": "2023-12-28" }
+      ],
+      "karma": 4.8,
+      "githubStats": {
+        "repos": 156,
+        "followers": 892,
+        "following": 234,
+        "contributions": 1247
+      },
+      "menteeCount": 45,
+      "experience": "10+ years",
+      "specialization": "Full-Stack Development & System Design",
+      "availableHours": "15 hrs/week",
+      "certifications": [
+        { "name": "AWS Solutions Architect", "issuer": "Amazon", "date": "2023-08" },
+        { "name": "Certified Scrum Master", "issuer": "Scrum Alliance", "date": "2022-05" }
+      ],
+      "isPublic": true
+    }
+  ]
+}
