@@ -6,6 +6,7 @@ import userData from "./data/user.json";
 import Profile from "./pages/Profile";
 import Projects from "./pages/Projects";
 import StudentDashboard from "./pages/StudentDashboard";
+import ProjectDetailPage from "./pages/ProjectDetailPage";
 
 
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/mentor" element={<Mentor />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:id" element={<ProjectDetailPage />} />
         </Routes>
       </div>
     </Router>

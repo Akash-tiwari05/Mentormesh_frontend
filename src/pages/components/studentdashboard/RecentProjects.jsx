@@ -3,6 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { BookOpen, CheckCircle, PlayCircle, Users, Star } from 'lucide-react';
 import { ScrollArea } from '@/components/ui/scroll-area';
+import { Link } from 'react-router-dom';
 
 
 /**
@@ -53,9 +54,12 @@ const RecentProjects = ({ projects }) => {
             >
               <div className="flex items-start justify-between mb-3">
                 <div className="flex-1">
-                  <h4 className="font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">
-                    {project.title}
-                  </h4>
+                  <Link to={`/projects/${project.id}`}>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-900 transition-colors underline hover:underline">
+                      {project.title}
+                    </h4>
+                  </Link>
+
                   <p className="text-sm text-gray-600 mt-1">{project.technology}</p>
                 </div>
                 <div className="flex items-center gap-2">
